@@ -55,7 +55,6 @@ class App extends Component {
         <button onClick={this.handleIncrement}>Increment</button>
         <button onClick={this.handleDecrement}>Decrement</button>
         <p>{this.props.counter}</p>
-
         <table>
           <thead>
             <tr>

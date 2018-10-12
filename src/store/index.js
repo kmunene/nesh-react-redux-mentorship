@@ -10,5 +10,4 @@ const configureStore = createStore(
     window.devToolsExtension ? window.devToolsExtension() : f => f
   )
 )
-
 export default configureStore;
